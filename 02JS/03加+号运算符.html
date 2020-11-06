@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //字符串加任何都成为字符串
+        var b = 4 + true + "abc";
+        var a = 4 + true;
+        var c = "abc" + 4 + true;
+        console.log(a + b + c);
+
+        //在前面+号就会转换为数字类型，非数如abc，转为非数NaN
+        var d = "abc" + 4 + +true;
+        //非数加任何数都是非数
+        var e = +"abc" + 4 + +true;
+        console.log(d);
+        console.log(e);
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 引用值 有array Object，function  data，Regexp正则
+        var arr2 = [4, 5];
+        var arr3 = arr2;
+        arr2.push(3);
+        console.log(arr3);
+        //引用值会存在堆中，由栈地址索引，arr2和arr3都指向同一个堆。
+
+        var arr = [1, 2];
+        var arr2 = arr;
+        arr = [2, 5];
+        console.log(arr2);
+        //重新赋值就会产生新的堆，会缓存
+    </script>
+</body>
+
+</html>

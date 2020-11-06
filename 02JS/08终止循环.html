@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //break是退出整个循环体
+        //如加到100就停止
+        var sun = 0;
+        for (var i = 0; i < 100; i++) {
+            sun += i;
+            if (sun > 100) {
+                console.log(sun);
+                break;
+            }
+        }
+
+
+
+
+        //continue 终止本次循环
+        //如在打印时不打印7的倍数
+        for (var i = 0; i < 100; i++) {
+            if (i % 7 == 0) {
+                continue;
+            }
+            console.log(i);
+        }
+
+
+    </script>
+</body>
+
+</html>
