@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+
+  <style>
+
+* {
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+.clearfix::after {
+  content: '';
+  display:block;
+  clear: both;
+}
+ul {
+  list-style: none; 
+}
+img {
+  max-width: 100%;
+}
+
+.logo{
+  width:100px;
+  display: inline-block;
+  vertical-align: middle;
+}
+ul>li {
+  float: left;
+  padding: 5px 2px;
+}
+ul {
+  float: right;
+  display: inline-block;
+}
+header {
+  background-color: grey;
+  color: white;
+}
+.content>aside {
+  width: 80px;
+  height: 300px;
+  float: left;
+}
+.content>main {
+  width: 100px;
+  height: 300px;
+  float: left;
+  background-color: #aaa;
+}
+.ad {
+  width: 200px; 
+  height: 300px;
+  float: left;
+  background-color: #bbb;  
+}
+.content {
+  width: 380px;
+  background-color: #ccc;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image {
+  outline: 1px solid red;
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ima {
+  background-color: #5555;
+  width: 86px;
+  height: 86px;
+  float: left;
+  margin-right: 12px;
+  margin-top: 12px;
+}
+.x {
+  margin-right: -12px;
+}
+  </style>
+</head>
+<body>
+  <header class="clearfix">
+  <div class="logo">
+    <img src="https://static.xiedaimala.com/xdml/cdn/assets/black-logo-25c84e68b3770b75580e7dbba2b77ce68f7fc1794d35afac32057c2d4ea4c498.png" alt=""> 
+  </div>
+  <ul class="clearfix">
+    <li>首页</li>
+    <li>课程</li>
+    <li>优惠</li>
+    <li>关于</li>
+  </ul>
+  </header>
+  <div class="content clearfix">
+    <aside></aside>
+    <main></main> 
+    <div class="ad"></div>
+  </div>
+  <div class="image clearfix">
+    <div class="x clearfix">
+    <div class="ima"></div>
+    <div class="ima"></div>
+    <div class="ima"></div>
+    <div class="ima"></div>
+    <div class="ima"></div>
+    <div class="ima"></div>
+    <div class="ima"></div>
+    <div class="ima"></div>
+    </div>
+  </div>
+</body>
+</html>
