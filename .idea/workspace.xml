@@ -14,11 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/12计算圆的周长和面积.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="216">
               <caret line="8" selection-start-line="8" selection-end-line="29" selection-end-column="5" />
             </state>
           </provider>
@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaScript/13计算圆构造函数.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="12" selection-start-line="12" selection-end-line="27" selection-end-column="3" />
+            <state relative-caret-position="61">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -48,9 +48,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="942" />
-    <option name="width" value="982" />
-    <option name="height" value="1040" />
+    <option name="x" value="941" />
+    <option name="width" value="980" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -58,7 +58,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,6 +85,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -127,18 +127,18 @@
       <workItem from="1606871845694" duration="3018000" />
       <workItem from="1607042894026" duration="67000" />
       <workItem from="1607042976228" duration="290000" />
-      <workItem from="1607043283429" duration="3045000" />
+      <workItem from="1607043283429" duration="3649000" />
+      <workItem from="1607048801538" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6420000" />
+    <option name="totallyTimeSpent" value="7031000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="754" y="0" width="785" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="753" y="0" width="784" height="833" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20427236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20454545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -172,15 +172,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/12计算圆的周长和面积.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="216">
           <caret line="8" selection-start-line="8" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/13计算圆构造函数.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="12" selection-start-line="12" selection-end-line="27" selection-end-column="3" />
+        <state relative-caret-position="61">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
