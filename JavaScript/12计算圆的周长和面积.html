@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+    let squareList = [];
+    let rList = [4, 5, 6, 6];
+    function createSquare(R){
+        let obj = Object.create(createSquare.squarePrototype);
+        obj.R = R;
+        obj.pi = 3.1415;
+        return obj
+    }
+    createSquare.squarePrototype = {
+        getArea(){
+            return this.R * this.pi * 2
+        },
+        getLength(){
+            return this.R * this.R * this.pi
+        },
+        constructor: createSquare//方便通过原型找到构造函数
+    };
+    for(let i = 0; i<4; i++){
+        squareList[i] = createSquare(rList[i]);
+        console.log(squareList[i].constructor);
+        //constructor知道谁构造了这个对象
+    }
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
