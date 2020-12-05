@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            class Person {
+        constructor(name, age){
+            this.name = name;
+            this.age = age;
+        }
+        sayHi(){
+            console.log('你好，我叫' + this.name)
+        }
+        
+    }
+
+    let person = new Person('frank', 18)
+    person.name === 'frank' // true
+    person.age === 18 // true
+    person.sayHi() // 打印出「你好，我叫 frank」
+
+    let person2 = new Person('jack', 19)
+    person2.name === 'jack' // true
+    person2.age === 19 // true
+    person2.sayHi() // 打印出「你好，我叫 jack」
+
+
+    </script>
+</body>
+</html>
