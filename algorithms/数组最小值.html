@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<SCRIPT>
+  let numbers = [9,8,11,5,6,7,9,4];
+  console.log(Math.min.apply(null,numbers));
+//选出最小的值
+  let min = (numbers) => {
+    if(numbers.length>2){
+      return min([numbers[0],min(numbers.slice(1))])
+    }else if(numbers[0]>numbers[1]){
+      return numbers[1]
+    }else {return numbers[0]}
+  };
+  console.log(min(numbers));
+//找出最小的下标
+  let minIndex = (numbers) =>{
+    let index = 0;
+    for(let i = 1;i <numbers.length; i++){
+      if (numbers[index]>numbers[i]){
+        index = i;
+      }console.log(index);
+    }return index;
+  }
+console.log(minIndex(numbers))
+
+  //递归找出最小下标
+  let minDex = (numbers) =>{
+
+    return numbers.indexOf(min(numbers))
+  }
+  console.log(minDex(numbers))
+
+
+</SCRIPT>
+
+</body>
+</html>
