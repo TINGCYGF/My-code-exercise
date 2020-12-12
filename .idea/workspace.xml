@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90106bdb-a81d-43dc-8be4-1a01950d1708" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/数组最小值.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/选择排序.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/数组最小值.html" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/数组最小值.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,7 +16,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithms/数组最小值.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="21" column="28" lean-forward="true" selection-end-line="44" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithms/选择排序.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -37,13 +57,14 @@
         <option value="$PROJECT_DIR$/cv-1/src/style.css" />
         <option value="$PROJECT_DIR$/algorithms/选择排序（递归）.html" />
         <option value="$PROJECT_DIR$/algorithms/数组最小值.html" />
+        <option value="$PROJECT_DIR$/algorithms/选择排序.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="807" />
+    <option name="x" value="922" />
     <option name="y" value="2" />
-    <option name="width" value="1032" />
+    <option name="width" value="1001" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -52,6 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -68,7 +90,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,11 +143,12 @@
       <workItem from="1607475067011" duration="1780000" />
       <workItem from="1607513969130" duration="6983000" />
       <workItem from="1607733277623" duration="4427000" />
+      <workItem from="1607774253858" duration="2988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25811000" />
+    <option name="totallyTimeSpent" value="28799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -138,9 +160,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="646" y="2" width="825" height="838" extended-state="0" />
+    <frame x="922" y="2" width="1001" height="1048" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21419518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22014537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -153,7 +176,7 @@
       <window_info anchor="bottom" id="运行" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32964602" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.40398294" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4032967" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="bottom" id="找到" order="13" />
@@ -187,13 +210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/数组最小值.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cv-1/src/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -212,6 +228,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/数组最小值.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="21" column="28" lean-forward="true" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/选择排序.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
