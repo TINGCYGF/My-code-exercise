@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<script>
+  let countSort = (arr) =>{
+    let hashTable = {}, max = 0, min = 0,  result = [];
+    //遍历数组存入哈希表
+    for(let i= 0; i<arr.length; i++){
+      if(arr[i] in hashTable){
+        hashTable[arr[i]] +=1;
+      }else{
+        hashTable[arr[i]] = 1;
+      }
+      console.log(hashTable)
+      if(arr[i]>max){max = arr[i]}
+      if(arr[i]<min){min = arr[i]}
+    }
+    //遍历从最小到最大值
+    for(let j = min; j <=max; j++){
+      if(j in hashTable){
+        for(let a = 1; a<=hashTable[j];a++){
+          result.push(j)
+        }
+      }
+    }
+    return result;
+  };
+  arr = [5,4,6,8,9,8,6,8,6];
+  console.log(countSort(arr))
+</script>
+</body>
+</html>

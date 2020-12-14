@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let arr = [1,5,16,61,54,46,46];
+    let mergeSort = (arr) => {
+      if(arr.length ===1){return arr}
+      let left = arr.slice(0, Math.floor(arr.length/2));
+      let rigth = arr.slice(Math.floor(arr.length/2));
+      return merge(mergeSort(left), mergeSort(rigth))
+    };
+    let merge = (left,right) =>{
+      if(left.length === 0){return right}
+      if(right.length === 0){return left}
+      return left[0]>right[0]? [right[0]].concat(merge(left,right.slice(1))): [left[0]].concat(merge(left.slice(1),right))
+    };
+console.log(mergeSort(arr))
+  </script>
+</body>
+</html>
