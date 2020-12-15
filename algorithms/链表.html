@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const createNode = value => {
+      return {
+        date: value,
+        next: null
+      }
+    };
+    //创建一个List
+    const createList = value => {
+      return createNode(value);
+    };
+    //增加一个节点
+    const appendList = (list, value) => {
+      const node = createNode(value);
+      list.next = node;
+      return node;
+    };
+    //删除节点
+    const removeFromList = (list, node) => {
+      let x = list;
+      let p = node;
+      // 如果 node 不在 list 中，x 就可能为 null
+      while (x !== node && x !== null) {
+        p = x;
+        x = x.next;
+      }
+      if(x === null){
+        return false
+      }else if(x === p){
+        p = x.next;
+        // 如果删除的是第一个节点，那么就要把新 list 的头节点 p 返回给外面，即 newList = removeFromList(list, list)
+        return p
+      }else{
+        p.next = x.next;
+        return list // 如果删除的不是第一个节点，返回原来的 list 即可
+      }
+    };
+    //查询所有节点
+    const travelList = (list, fn) => {
+      let x = list;
+      while (x !== null) {
+        fn(x);
+        x = x.next;
+      }
+    };
+    travelList(list, node=>{
+      console.log(node.data);
+    });
+
+    const list = createList(10);
+    const node = appendList(list, 20);
+    console.log(list);
+  </script>
+</body>
+</html>

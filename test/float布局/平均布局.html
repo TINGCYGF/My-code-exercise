@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .clearfix::after {
+      content: '';
+      display:block;
+      clear: both;
+    }
+    .boxBig {
+      outline: 1px solid #22a6b3;
+      width: 380px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .box {
+      background-color: #5555;
+      width: 86px;
+      height: 86px;
+      float: left;
+      margin-right: 12px;
+      margin-top: 12px;
+    }
+    .x {
+      margin-right: -12px;
+    }
+  </style>
+</head>
+<body>
+<div class="boxBig clearfix">
+  <div class="x clearfix">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+</div>
+</body>
+</html>
