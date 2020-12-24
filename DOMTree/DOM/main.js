@@ -1,6 +1,7 @@
 
 // const div = dom.create("<div>newDiv</div>");
 // console.log(div);
+//测试api
 
 let ting = document.querySelector('#ting');
 console.log(ting);
