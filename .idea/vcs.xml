@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DOMTree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ajax/ajax-1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ajax/ajaxLibrary" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ajax/static-server" vcs="Git" />
+  </component>
+</project>
