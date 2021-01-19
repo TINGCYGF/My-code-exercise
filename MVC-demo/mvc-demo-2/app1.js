@@ -1,34 +1,53 @@
-import "./app1.css";
+import './app1.css'
+import Vue from 'vue'
 
-const number = document.querySelector('#number');
-const addOne = document.querySelector('#addOne');
-const minusOne = document.querySelector('#minusOne');
-const mulTow = document.querySelector('#mulTow');
-const divideTow = document.querySelector('#divideTow');
-const n = localStorage.getItem("n");
-number.innerText = (n || 100);
+const init = (el) => {
 
-addOne.addEventListener("click", (e)=>{
-  let n = parseInt(number.innerText);
-   n = n + 1;
-  localStorage.setItem("n", n);
-  number.innerText = n;
-});
-minusOne.addEventListener("click", (e)=>{
-  let n = parseInt(number.innerText);
-  n = n - 1;
-  localStorage.setItem("n", n);
-  number.innerText = n;
-});
-mulTow.addEventListener("click", (e)=>{
-  let n = parseInt(number.innerText);
-  n = n * 2;
-  localStorage.setItem("n", n);
-  number.innerText = n;
-});
-divideTow.addEventListener("click", (e)=>{
-  let n = parseInt(number.innerText);
-  n = n / 2;
-  localStorage.setItem("n", n);
-  number.innerText = n;
-});
+  const m = {
+    get() {
+      return parseFloat(localStorage.getItem('n'))
+    },
+    set(n) {
+      localStorage.setItem('n', n)
+    }
+  }
+  new Vue({
+    el: el,
+    data: {n: m.get()},
+    methods: {
+      add() {
+        this.n += 1
+      },
+      minus() {
+        this.n -= 1
+      },
+      mul() {
+        this.n *= 2
+      },
+      div() {
+        this.n /= 2
+      },
+    },
+    watch: {
+      n: function () {
+        m.set(this.n)
+      },
+    },
+    template: `
+      <section>
+        <div class="output">
+          <span id="number">{{n}}</span>
+        </div>
+        <div class="actions">
+          <button @click="add">+1</button>
+          <button @click="minus">-1</button>
+          <button @click="mul">*2</button>
+          <button @click="div">÷2</button>
+        </div>
+      </section>
+    `
+  })
+}
+
+export default init
+

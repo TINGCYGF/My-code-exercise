@@ -1,3 +1,8 @@
-#number{
-  background-color: red;
+#app1 {
+  width: 50vw;
+  height: 50vh;
+}
+#app1 .output {
+}
+#app1 .actions {
 }
