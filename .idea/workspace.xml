@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="443ef340-e428-4214-91ce-164165919d5d" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DOMTree/DOM/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/DOMTree/DOM/dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC-demo/mvc-demo-2/app1.js" beforeDir="false" afterPath="$PROJECT_DIR$/MVC-demo/mvc-demo-2/app1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC-demo/mvc-demo-2/app2.js" beforeDir="false" afterPath="$PROJECT_DIR$/MVC-demo/mvc-demo-2/app2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC-demo/mvc-demo-2/app3.js" beforeDir="false" afterPath="$PROJECT_DIR$/MVC-demo/mvc-demo-2/app3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC-demo/mvc-demo-2/app4.js" beforeDir="false" afterPath="$PROJECT_DIR$/MVC-demo/mvc-demo-2/app4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC-demo/mvc-demo-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MVC-demo/mvc-demo-2/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +18,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MVC-demo/mvc-demo-2/app1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="270">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,8 +62,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="876" />
-    <option name="width" value="1055" />
+    <option name="x" value="793" />
+    <option name="width" value="1138" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -78,34 +75,13 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="My code exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My code exercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My code exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My code exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="MVC-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My code exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My code exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="MVC-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc-demo-2" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vueExercise" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -155,16 +131,17 @@
       <workItem from="1610929162126" duration="6517000" />
       <workItem from="1610978915542" duration="592000" />
       <workItem from="1611015961161" duration="772000" />
+      <workItem from="1611017347327" duration="1669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36604000" />
+    <option name="totallyTimeSpent" value="38273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="702" y="0" width="843" height="832" extended-state="0" />
+    <frame x="635" y="0" width="910" height="832" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19826518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18306637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -177,7 +154,7 @@
       <window_info anchor="bottom" id="运行" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49660632" visible="true" weight="0.1954023" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49660632" visible="true" weight="0.30747128" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50339365" side_tool="true" weight="0.18705036" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -417,8 +394,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC-demo/mvc-demo-2/app1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        <state relative-caret-position="270">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
