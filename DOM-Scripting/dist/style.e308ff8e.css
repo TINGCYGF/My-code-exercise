@@ -1,0 +1,23 @@
+* {margin: 0; padding: 0}
+
+#imagegallery {
+    list-style: none;
+}
+#imagegallery li{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#imagegallery a{
+    color: aquamarine;
+    background-color: #bbbbbb;
+    text-decoration: none;
+
+}
+#imagegallery img{
+    width: 100%;
+    height: 100%;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
