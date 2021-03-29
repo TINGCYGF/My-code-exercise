@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="443ef340-e428-4214-91ce-164165919d5d" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/DOM-Scripting/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM-Scripting/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM-Scripting/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM-Scripting/img/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM-Scripting/img/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM-Scripting/src/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DOMTree/DOM/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/DOMTree/DOM/dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/.idea/ajax.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/会动的心.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/会动的心.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +129,7 @@
       <workItem from="1611015961161" duration="772000" />
       <workItem from="1611017347327" duration="1669000" />
       <workItem from="1616828895765" duration="7810000" />
-      <workItem from="1616998403882" duration="8292000" />
+      <workItem from="1616998403882" duration="8689000" />
     </task>
     <servers />
   </component>
